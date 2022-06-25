@@ -1,0 +1,13 @@
+<h2>MIS RUTINAS</h2>
+<div class="contenedor">
+  <ul class="rutinas">
+    <li *ngFor="let rutina of rutinas">
+      <a routerLink="/rutina-detalle/{{rutina.id}}">
+        <span class="badge">{{rutina.id}}</span> {{rutina.titleRutina}}
+        <img src="{{rutina.imgRutina}}">
+      </a>
+      <button type="button" class="delete" title="BORRAR RUTINA"
+        (click)="borrar(rutina)">x</button>
+    </li>
+  </ul>  
+</div>

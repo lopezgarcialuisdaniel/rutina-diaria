@@ -1,0 +1,49 @@
+<div class="container">
+    
+    <div>
+        <label for="new-procedimiento">ID: </label>
+        <input id="new-hero" #pId />
+        <label for="new-procedimiento">PASO: </label>
+        <input id="new-hero" #pName />
+        <label for="new-procedimiento">DESCRIPCION: </label>
+        <input id="new-hero" #pDescripcion />
+        <label for="new-procedimiento">IMAGEN: </label>
+        <input id="new-hero" #pImagen />
+      
+        <button type="button" 
+        (click)="crearProcedimiento(
+            pId.value= '',
+            pName.value= '', 
+            pDescripcion.value= '', 
+            pImagen.value= '');">AÑADIR</button>
+            
+    </div>
+
+    <table class="table">
+      <caption>LISTA DE PROCEDIMIENTOS</caption>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>PASO #</th>
+          <th>DESCRIPCIÓN</th>
+          <th>IMAGEN</th>
+          <th>RUTINA</th>
+          <th>ACCIONES</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let procedimiento of procedimientos">
+          <td>{{procedimiento.id}}</td>
+          <td>{{procedimiento.titlePaso}}</td>
+          <td><b>{{procedimiento.descripcionPaso}}</b></td>
+          <td><img src="{{procedimiento.imgPaso}}" width="100px" height="100px"></td>
+          <td>{{procedimiento.rutinaId}}</td>
+          <td>
+            <button type="button" class="realizado" 
+                (click)="editarProcedimiento(procedimiento)">REALIZADO</button>
+            <button type="button" class="borrar" title="delete procedimiento"
+                (click)="eliminarProcedimiento(procedimiento)">X</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>

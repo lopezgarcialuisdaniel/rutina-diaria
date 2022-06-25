@@ -1,0 +1,12 @@
+<!-- DETALLES -->
+<div *ngIf="rutina" class="div-rutina-detalle">
+    <h2>{{rutina.titleRutina | uppercase}} DETALLES</h2>
+    <div>
+      <span><b>ID:  </b></span>{{rutina.id}}<br>
+      <span><b>NOMBRE DE LA RUTINA:  </b> </span>{{rutina.titleRutina}}<br>
+      <img src="{{rutina.imgRutina}}"><br>
+    </div>  
+    <a routerLink="/rutina-detalle/{{rutina.id}}/procedimientos">IR AL PROCEDIMIENTO</a>
+    <button type="button" (click)="regresar()">REGRESAR</button>
+</div>
+  

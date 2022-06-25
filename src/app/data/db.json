@@ -1,0 +1,164 @@
+{
+  "ambito": [
+    {
+      "id": 1,
+      "titleAmbito": "PERSONAL"
+    },
+    {
+      "id": 2,
+      "titleAmbito": "FAMILIAR"
+    },
+    {
+      "id": 3,
+      "titleAmbito": "SOCIAL"
+    }
+  ],
+  "rutina": [
+    {
+      "id": 1,
+      "titleRutina": "COMER",
+      "imgRutina": "https://static.arasaac.org/pictograms/6456/6456_300.png",
+      "ambitoId": 1
+    },
+    {
+      "id": 2,
+      "titleRutina": "JUGAR A LA PELOTA",
+      "imgRutina": "https://static.arasaac.org/pictograms/31892/31892_300.png",
+      "ambitoId": 2
+    },
+    {
+      "id": 3,
+      "titleRutina": "IR A LA ESCUELA",
+      "imgRutina": "https://static.arasaac.org/pictograms/3082/3082_300.png",
+      "ambitoId": 3
+    }
+  ],
+  "procedimiento": [
+    {
+      "id": 1,
+      "titlePaso": "PRIMER PASO",
+      "descripcionPaso": "PONER LA MESA",
+      "imgPaso": "https://static.arasaac.org/pictograms/5549/5549_300.png",
+      "rutinaId": 1
+    },
+    {
+      "id": 2,
+      "titlePaso": "SEGUNDO PASO",
+      "descripcionPaso": "LAVARSE LAS MANOS",
+      "imgPaso": "https://static.arasaac.org/pictograms/2443/2443_300.png",
+      "rutinaId": 1
+    },
+    {
+      "id": 3,
+      "titlePaso": "TERCER PASO",
+      "descripcionPaso": "SENTARSE",
+      "imgPaso": "https://static.arasaac.org/pictograms/2801/2801_300.png",
+      "rutinaId": 1
+    },
+    {
+      "id": 4,
+      "titlePaso": "CUARTO PASO",
+      "descripcionPaso": "COMER",
+      "imgPaso": "https://static.arasaac.org/pictograms/2349/2349_300.png",
+      "rutinaId": 1
+    },
+    {
+      "id": 5,
+      "titlePaso": "QUINTO PASO",
+      "descripcionPaso": "BEBER",
+      "imgPaso": "https://static.arasaac.org/pictograms/2276/2276_300.png",
+      "rutinaId": 1
+    },
+    {
+      "id": 6,
+      "titlePaso": "SEXTO PASO",
+      "descripcionPaso": "LEVANTARSE DE LA SILLA",
+      "imgPaso": "https://static.arasaac.org/pictograms/4677/4677_300.png",
+      "rutinaId": 1
+    },
+    {
+      "id": 7,
+      "titlePaso": "SEPTIMO PASO",
+      "descripcionPaso": "LEVANTAR LOS PLATOS",
+      "imgPaso": "https://static.arasaac.org/pictograms/5558/5558_300.png",
+      "rutinaId": 1
+    },
+    {
+      "id": 8,
+      "titlePaso": "PRIMER PASO",
+      "descripcionPaso": "PEDIR PERMISO",
+      "imgPaso": "https://static.arasaac.org/pictograms/34697/34697_300.png",
+      "rutinaId": 2
+    },
+    {
+      "id": 9,
+      "titlePaso": "SEGUNDO PASO",
+      "descripcionPaso": "BUSCAR LA PELOTA",
+      "imgPaso": "https://static.arasaac.org/pictograms/3241/3241_300.png",
+      "rutinaId": 2
+    },
+    {
+      "id": 10,
+      "titlePaso": "TERCER PASO",
+      "descripcionPaso": "NO ALEJARSE DE LA CASA",
+      "imgPaso": "https://static.arasaac.org/pictograms/28926/28926_300.png",
+      "rutinaId": 2
+    },
+    {
+      "id": 11,
+      "titlePaso": "CUARTO PASO",
+      "descripcionPaso": "JUGAR A LA PELOTA",
+      "imgPaso": "https://static.arasaac.org/pictograms/31892/31892_300.png",
+      "rutinaId": 2
+    },
+    {
+      "id": 12,
+      "titlePaso": "PRIMER PASO",
+      "descripcionPaso": "VESTIRSE",
+      "imgPaso": "https://static.arasaac.org/pictograms/6627/6627_300.png",
+      "rutinaId": 3
+    },
+    {
+      "id": 13,
+      "titlePaso": "SEGUNDO PASO",
+      "descripcionPaso": "DESAYUNAR",
+      "imgPaso": "https://static.arasaac.org/pictograms/28667/28667_300.png",
+      "rutinaId": 3
+    },
+    {
+      "id": 14,
+      "titlePaso": "TERCER PASO",
+      "descripcionPaso": "CEPILLARSE LOS DIENTES",
+      "imgPaso": "https://static.arasaac.org/pictograms/31880/31880_300.png",
+      "rutinaId": 3
+    },
+    {
+      "id": 15,
+      "titlePaso": "CUARTO PASO",
+      "descripcionPaso": "PONER LA MOCHILA",
+      "imgPaso": "https://static.arasaac.org/pictograms/38265/38265_300.png",
+      "rutinaId": 3
+    },
+    {
+      "id": 16,
+      "titlePaso": "QUINTO PASO",
+      "descripcionPaso": "IR A LA ESCUELA",
+      "imgPaso": "https://static.arasaac.org/pictograms/3082/3082_300.png",
+      "rutinaId": 3
+    },
+    {
+      "id": 17,
+      "titlePaso": "SEXTO PASO",
+      "descripcionPaso": "ENTRAR AL AULA",
+      "imgPaso": "https://static.arasaac.org/pictograms/33072/33072_300.png",
+      "rutinaId": 3
+    },
+    {
+      "id": 18,
+      "titlePaso": "SEPTIMO PASO",
+      "descripcionPaso": "CONVIVIR",
+      "imgPaso": "https://static.arasaac.org/pictograms/2255/2255_300.png",
+      "rutinaId": 3
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+<h2>RUTINAS</h2>
+<div class="grid grid-pad">
+  <a *ngFor="let rutina of rutinas" class="col-1-4" routerLink= "/rutina-detalle/{{rutina.id}}">
+    <div class="module rutina">
+      <h4>{{rutina.titleRutina}}</h4>
+      <img src="{{rutina.imgRutina}}">
+    </div>
+  </a>
+</div>
+
+<!-- <a *ngFor="let rutina of rutinas" class="col-1-4" routerLink= "/detalle/{{rutina.id}}"> -->
